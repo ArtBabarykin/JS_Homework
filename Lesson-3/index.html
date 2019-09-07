@@ -6,22 +6,41 @@
     </head>
     <body>
         <script>
-            // 1:
-           let str = prompt('Enter the text here')
-           
-           function countVowels(text) {
-               let vowelList = 'eyuioa'
-               let counter = 0
-               let textArr = str.toLowerCase().split('')
-               
-               textArr.forEach(function(letter) {
-                   if(vowelList.indexOf(letter) !==-1 ) {
-                       counter++
-                   }
-               });
-               return counter
-           }
-           console.log(countVowels(str));
+           // 1:
+          let str = prompt('Enter the text here')
+          
+          function countVowels(text) {
+              let vowelList = 'eyuioa'
+              let counter = 0
+              let textArr = str.toLowerCase().split('')
+              
+              textArr.forEach(function(letter) {
+                  if(vowelList.indexOf(letter) !==-1 ) {
+                      counter++
+                  }
+              });
+              return counter
+          }
+          console.log(countVowels(str));
+            
+            //2:
+//            let str = prompt('Enter the text here')
+//           
+//           function countVowels(text) {
+//               let vowelList = 'eyuioa'
+//               let counter = 0
+//               let textArr = str.toLowerCase().split('')
+//               
+//               textArr.filter(function(letter) {
+//                   if(vowelList.indexOf(letter) !==-1 ) {
+//                       counter++
+//                   }
+//               });
+//               return counter
+//           }
+//           console.log(countVowels(str));
+//            
+          
         </script>
     </body>
 </html>
